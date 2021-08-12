@@ -18,6 +18,10 @@ def about():
 def stock():
     return render_template('stockstats.html')
 
+@app.route('/nifty')
+def nifty():
+    return render_template('nifty.html')
+
 
 
 

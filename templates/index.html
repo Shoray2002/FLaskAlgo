@@ -2,8 +2,52 @@
 {% block head%}
 
 <title>Algo</title>
-
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ url_for('static',filename='styles/index.css')}}"
+/>
 {% endblock %}
 {% block content%}
-<h1>hi</h1>
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="section-fluid-main">
+      <div class="section-row">
+        <div class="section-col">
+          <div class="section">
+            <div class="section-in">
+                <div class="blur">
+                <a href="/stock"><img src="../static/images/pexels-pixabay-210607.jpg" alt="" />   </a> 
+                 <p>Stock Search</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="hover-text">
+         <h2>Vision</h2>
+          
+          
+        </div> -->
+
+        <div class="section-col">
+            <div class="section">
+              <div class="section-in">
+                <div class="blur">
+                    <a href="/stock"><img src="../static/images/pexels-markus-spiske-1089438.jpg" alt="" />   </a> 
+                   
+                    </div>
+               
+              </div>
+            </div>
+          </div>
+          <!-- <div class="hover-text">
+           <h2>Vision</h2>
+            
+            
+          </div> -->
+  
+      
+    </div>
+    
+  </body>
 {%endblock%}

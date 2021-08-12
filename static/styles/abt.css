@@ -31,7 +31,7 @@ p {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left:auto;
+  margin-left: auto;
   max-width: 1140px;
   padding: 150px 0;
 }
@@ -80,19 +80,19 @@ p {
   transition: transform 250ms linear;
 }
 .section-col:hover .section-in img {
-  transform: scale(1.1) ;
+  transform: scale(1.1);
   /* rotate(-3deg) */
 }
 
-.section-foot{
+.section-foot {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height:auto;
-  background-color:rgba(0, 0, 0, 0.404);
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.404);
 }
-ion-icon{
-  font-size:20px;
+ion-icon {
+  font-size: 25px;
   color: rgb(255, 255, 255);
   padding-left: 1vh;
 }
