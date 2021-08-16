@@ -23,6 +23,7 @@ body {
   position: relative;
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
   margin-top: 2vh;
+  padding: 1vh;
 }
 
 .profile-img {
@@ -104,27 +105,30 @@ body {
 }
 
 .profile-body {
-  width:775px;
+  width: 775px;
   background: #312e3f;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
-  padding: 50px 30px 20px;
+  padding: 15px 15px 10px;
   font-family: "Bree Serif", serif;
   margin-left: 15px;
   z-index: 1;
   justify-content: center;
 }
 
-
-
+.card {
+  background: #20202a;
+  padding: 25px 30px 20px;
+  margin-bottom: 2vh;
+}
 
 @media (max-width: 1100px) {
   .profile-side {
     width: 250px;
     padding: 90px 15px 20px;
   }
-  .profile-body{
+  .profile-body {
     width: 625px;
-    padding: 50px 15px 20px;
+    padding: 20px 15px 10px;
   }
 
   .profile-img img {
@@ -165,11 +169,6 @@ body {
     text-align: center;
   }
 
-  .profile-option {
-    right: 20px;
-    top: 75%;
-    transform: translateY(50%);
-  }
 
   .main-bd {
     flex-direction: column;
@@ -182,10 +181,10 @@ body {
     padding: 20px;
     margin: 5px 0;
   }
-  .profile-body{
+  .profile-body {
     width: 100%;
-    padding: 30px;
-    margin:5px 0;
+    padding: 15px;
+    margin: 5px 0;
   }
 
   .profile-nav-info .email {
