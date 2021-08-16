@@ -22,6 +22,11 @@ def stock():
 def nifty():
     return render_template('nifty.html')
 
+@app.route('/portfolio')
+def portfolio():
+    return render_template('portfolio.html')
+
+
 
 
 
